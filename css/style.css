@@ -75,10 +75,20 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #000000;
-    /*background: #1E90FF;*/
-    /*background: url(../img/vancouver.jpg);*/
-    /*background-repeat: no-repeat;*/
+    color: #FFFFFF;
+    background-image:url('../img/vancouver.jpg');background-attachment: fixed, fixed;
+    background-repeat: fixed, no-repeat;
+    background-position: bottom left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
 header .container {
@@ -175,8 +185,7 @@ section h2 {
 }
 
 section.success {
-    /*color: #fff;*/
-    background: #808080;
+    background: #D3D3D3;
 }
 
 section.success a,
