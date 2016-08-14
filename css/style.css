@@ -1,6 +1,5 @@
 body {
     overflow-x: hidden;
-    background-color: #87CEEB;
 }
 
 p {
@@ -76,8 +75,10 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
-    background: #1E90FF;
+    color: #000000;
+    /*background: #1E90FF;*/
+    /*background: url(../img/vancouver.jpg);*/
+    /*background-repeat: no-repeat;*/
 }
 
 header .container {
@@ -174,8 +175,8 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
-    background: #1E90FF;
+    /*color: #fff;*/
+    background: #808080;
 }
 
 section.success a,
@@ -246,7 +247,6 @@ section.success a.active {
 
 #portfolio * {
     z-index: 2;
-    color: #FFFFFF;
 }
 
 
